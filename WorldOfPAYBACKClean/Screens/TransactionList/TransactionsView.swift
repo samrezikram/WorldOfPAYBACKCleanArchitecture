@@ -109,7 +109,7 @@ struct TransactionsView: View {
     var body: some View {
       HStack {
         fillWidth
-        Text(String(category.category)).bold().font(.system(size: 16)).background(Color.yellow).frame(maxWidth: .infinity).border(Color.clear)
+        Text(String(category.category)).bold().font(.system(size: 16)).frame(maxWidth: .infinity).border(Color.clear)
       }
 
     }
